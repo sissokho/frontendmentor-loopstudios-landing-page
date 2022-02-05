@@ -4,7 +4,7 @@
 
 @layer components {
     .creation {
-        @apply relative bg-gradient-to-r from-gray-very-dark md:bg-gradient-to-t;
+        @apply relative cursor-pointer bg-gradient-to-r from-gray-very-dark md:bg-gradient-to-t;
 
         img {
             @apply mix-blend-multiply;
@@ -17,5 +17,9 @@
 
     .max-container {
         @apply mx-auto max-w-[1440px] px-[7vw];
+    }
+
+    .link {
+        @apply after:mx-auto after:block after:h-[2px] after:w-6 after:scale-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-100;
     }
 }
