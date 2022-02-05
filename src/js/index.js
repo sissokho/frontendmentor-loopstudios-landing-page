@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     [mobileMenuOpenBtn, mobileMenuCloseBtn].forEach(trigger => {
         trigger.addEventListener('click', () => {
             menu.classList.toggle('-translate-x-full');
+            menu.classList.toggle('opacity-0');
 
             if (document.body.style.overflow === '') {
                 document.body.style.overflow = 'hidden';

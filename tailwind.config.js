@@ -8,6 +8,7 @@ module.exports = {
                 dark: 'hsl(0, 0%, 55%)',
                 'very-dark': 'hsl(0, 0%, 41%)',
             },
+            transparent: 'transparent',
         },
         fontFamily: {
             alata: ['Alata', 'sans-serif'],
