@@ -11,6 +11,9 @@
         "format": "prettier --write .",
         "prepare": "husky install"
     },
+    "lint-staged": {
+        "*.{html,js,css,json}": "prettier --write"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
