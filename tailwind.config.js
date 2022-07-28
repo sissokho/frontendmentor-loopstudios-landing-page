@@ -9,6 +9,9 @@ module.exports = {
                 'very-dark': 'hsl(0, 0%, 41%)',
             },
             transparent: 'transparent',
+            purple: {
+                400: '#C084FC',
+            },
         },
         fontFamily: {
             alata: ['Alata', 'sans-serif'],
